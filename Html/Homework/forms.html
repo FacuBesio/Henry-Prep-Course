@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/index.css">
     <title>Form</title>
 </head>
+
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="about.html"> Conocer Ciudad </a></li>
-            <li><a href="accommodation.html"> Alojamientos </a></li>
-            <li><a href="visits_activities.html"> Actividades</a></li>
-            
-        </ul>
-    </nav>
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html"> Conocer Ciudad </a></li>
+                <li><a href="accommodation.html"> Alojamientos </a></li>
+                <li><a href="visits_activities.html"> Actividades</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
     <h1>CONTACTANOS</h1>
     <br>
     <form action="mailto:facubesio.08@gmail.com" method="post" enctype="text/plain">
@@ -23,7 +28,7 @@
         <label for="nombreUsuario">Nombre de Usuario: </label>
         <input type="text" name="nombreUsuario" id="nombreUsuario" required>
         <br><br>
-        
+
         <label for="email">Correo Electrónico: </label>
         <input type="email" name="email" id="email" required>
         <br><br>
@@ -31,11 +36,12 @@
         <label for="mensaje">Mensaje: </label>
         <textarea name="mensaje" id="mensaje" cols="33" rows="5" required></textarea>
         <br><br>
-        
-        
+
+
         <input type="submit" value="Enviar">
         <input type="reset" value="Borrar">
     </form>
-    
+
 </body>
+
 </html>
