@@ -1,0 +1,95 @@
+h1{
+    color: darkcyan;
+    text-transform: capitalize;
+}
+
+table{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    border-radius: 10px;
+    background-color:aliceblue;
+}
+
+caption{
+    font-size: 16px;
+    font-weight: bold;
+    margin:5px;
+    padding:5px;
+    text-transform: uppercase;
+
+}
+
+header{
+    height:100px;
+    width:100%;
+    margin:0;
+    padding:20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkcyan;
+    
+}
+
+nav{ 
+    height:40px;
+    width:100%;
+    margin:0;
+    padding:0;
+    border-style: none;
+    list-style-type:none;
+    
+}
+
+nav ul{
+    height:auto;
+    width:100%;
+    display: flex;
+    align-items: center;
+    margin:20px 0;
+    padding:0;
+    list-style-type:none;
+    
+    
+}
+
+
+nav ul li{
+    height:auto;
+    width:100%;
+    margin:0;
+    padding:10px 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration:none;
+    background-color: azure;
+    margin:0 10px;
+    padding:10px 15px;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+a{
+    color: black;
+    text-decoration:none;
+    background-color: azure;
+    margin:0 10px;
+    padding:5px 5px;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+img{
+    height: auto;
+    width: 100%;
+    margin:20px; 
+    padding:0;
+
+}
